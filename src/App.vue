@@ -13,10 +13,10 @@
         <li><router-link to="/bookonline"> BOOK ONLINE </router-link></li>
       </ul>
     </div>
-
-    <HelloWorld msg="" />
+    <router-view :key="$route.fullPath" />
   </div>
 </template>
+
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
