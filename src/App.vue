@@ -3,14 +3,14 @@
     <div>
       <ul class="header">
         <li class="imgfix">
-          <img src="./assets/logo.png" alt="" srcset="" />
+          <img src="./assets/redlogo.png" alt="" srcset="" />
         </li>
         <li>
-          <router-link to="/"> Home </router-link>
+          <router-link to="/"> HOME </router-link>
         </li>
-        <li><router-link to="/"> About </router-link></li>
-        <li><router-link to="/"> Plans </router-link></li>
-        <li><router-link to="/"> Book Online </router-link></li>
+        <li><router-link to="/about"> ABOUT </router-link></li>
+        <li><router-link to="/mealplans"> MEAL PLANS </router-link></li>
+        <li><router-link to="/bookonline"> BOOK ONLINE </router-link></li>
       </ul>
     </div>
 
@@ -40,7 +40,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: black;
-  margin-top: 60px;
 }
 
 .header {
@@ -58,10 +57,10 @@ export default {
 }
 .header li a {
   color: white;
-  text-decoration: none;
+  text-decoration: uppercase;
 }
 .header li a:hover {
-  color: #2afc98;
+  color: red;
   text-decoration: underline;
 }
 .header img {
