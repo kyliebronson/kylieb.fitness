@@ -13,7 +13,7 @@
         <li><router-link to="/bookonline"> BOOK ONLINE </router-link></li>
       </ul>
     </div>
-    <router-view :key="$route.fullPath" />
+    <router-view />
   </div>
 </template>
 
@@ -50,23 +50,26 @@ export default {
   justify-content: left;
   padding-inline-start: 0;
   vertical-align: middle;
+  min-height: 80px;
+  border-bottom: 1px solid rgba(189, 23, 22, 0.6);
 }
 .header li {
   padding-left: 30px;
-  padding-top: 12px;
+  padding-top: 30px;
+  text-decoration: uppercase;
 }
 .header li a {
   color: white;
-  text-decoration: uppercase;
+  text-decoration: none;
 }
 .header li a:hover {
   color: red;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .header img {
   height: 35px;
 }
 .header .imgfix {
-  padding-top: 7px !important;
+  padding-top: 22px !important;
 }
 </style>
