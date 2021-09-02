@@ -12,6 +12,8 @@
       accusamus dicta vero, aperiam quasi sunt incidunt nostrum error deserunt
       id quod rem quisquam natus voluptas possimus nesciunt voluptatem aut.
     </p1>
+
+    <img src="../assets/me.JPG" />
   </div>
 </template>
 
