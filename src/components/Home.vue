@@ -4,6 +4,13 @@
       <h2>Fitter, healthier, happier.</h2>
       <img src="../assets/fitpic.jpeg" />
     </div>
+    <div class="hero2-top">
+      <p class="border"></p>
+    </div>
+    <div class="hero2">
+      <h2>health and fitness coaching</h2>
+      <img src="../assets/homepageclients.png" alt="" />
+    </div>
   </div>
 </template>
 
@@ -30,8 +37,33 @@ export default {};
   padding: 20px;
   text-align: center;
 }
+
 .hero img {
   min-width: 100%;
   height: 100vh;
+}
+.hero2 h2 {
+  font-family: "Assistant";
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+.hero2-top .border {
+  width: 100%;
+  max-width: 160px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+}
+.hero2-top {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.hero2 {
+  padding-bottom: 100px;
 }
 </style>

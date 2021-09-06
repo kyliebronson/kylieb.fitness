@@ -3,6 +3,8 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import Home from '@/components/Home'
 import About from '@/components/About'
+import Bookonline from '@/components/Bookonline'
+import Contact from '@/components/Contact'
 
 Vue.use(VueRouter)
 
@@ -10,8 +12,8 @@ Vue.config.productionTip = false
 const routes = [
   { path: '/', component: Home },
   { path: '/about', component: About},
-  { path: '/contact', component: Home },
-  { path: '/bookonline', component: Home },
+  { path: '/contact', component: Contact },
+  { path: '/bookonline', component: Bookonline },
 ]
 
 const router = new VueRouter({
