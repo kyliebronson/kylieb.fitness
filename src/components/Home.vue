@@ -11,6 +11,9 @@
       <h2>health and fitness coaching</h2>
       <img src="../assets/homepageclients.png" alt="" />
     </div>
+    <div class="socialmedia">
+      <h2>Follow me on Instagram @kylieb.fit</h2>
+    </div>
   </div>
 </template>
 
