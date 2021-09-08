@@ -21,7 +21,7 @@
     </div>
   </div>
 </template>
-
+ 
 <style scoped>
 p {
   text-transform: uppercase;
