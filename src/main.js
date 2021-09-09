@@ -5,6 +5,15 @@ import Home from '@/components/Home'
 import About from '@/components/About'
 import Bookonline from '@/components/Bookonline'
 import Contact from '@/components/Contact'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+// Optionally install the BootstrapVue icon components plugin
+
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+library.add(faBars)
 
 Vue.use(VueRouter)
 

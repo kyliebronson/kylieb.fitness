@@ -40,7 +40,6 @@ export default {};
   padding: 20px;
   text-align: center;
 }
-
 .hero img {
   min-width: 100%;
   height: 100vh;
@@ -68,5 +67,19 @@ export default {};
 }
 .hero2 {
   padding-bottom: 100px;
+}
+
+@media (max-width: 900px) {
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  .hero2 img {
+    width: 100%;
+    height: auto;
+  }
+  .hero h2 {
+    width: auto;
+  }
 }
 </style>

@@ -11,7 +11,22 @@
         <li><router-link to="/about"> ABOUT </router-link></li>
         <li><router-link to="/contact"> CONTACT US </router-link></li>
         <li><router-link to="/bookonline"> BOOK ONLINE </router-link></li>
+
+        <li class="mobile-button" @click="showMobileMenu">
+          <font-awesome-icon icon="bars" />
+        </li>
       </ul>
+      <!-- Mobile menu -->
+      <div class="mobile-menu" v-if="mobileVisible">
+        <ul @click="showMobileMenu">
+          <li>
+            <router-link to="/"> HOME </router-link>
+          </li>
+          <li><router-link to="/about"> ABOUT </router-link></li>
+          <li><router-link to="/contact"> CONTACT US </router-link></li>
+          <li><router-link to="/bookonline"> BOOK ONLINE</router-link></li>
+        </ul>
+      </div>
     </div>
     <router-view />
     <Footer></Footer>
@@ -28,6 +43,16 @@ export default {
   components: {
     HelloWorld,
     Footer,
+  },
+  data() {
+    return {
+      mobileVisible: false,
+    };
+  },
+  methods: {
+    showMobileMenu() {
+      this.mobileVisible = !this.mobileVisible;
+    },
   },
 };
 </script>
@@ -69,10 +94,37 @@ export default {
   color: red;
   text-decoration: none;
 }
-.header img {
-  height: 35px;
+.mobile-button {
+  display: none;
 }
-.header .imgfix {
-  padding-top: 22px !important;
+.mobile-menu {
+  display: none;
+}
+@media (max-width: 900px) {
+  .header li {
+    display: none;
+  }
+  .header img {
+    height: 35px;
+  }
+  .header .imgfix {
+    padding-top: 22px !important;
+    display: block !important;
+  }
+  .mobile-button {
+    display: block !important;
+    margin-left: 45%;
+    font-size: 30px;
+  }
+  .mobile-menu {
+    display: block !important;
+    background-color: grey;
+  }
+  .mobile-menu a {
+    color: white;
+  }
+  .mobile-menu li {
+    padding: 8px;
+  }
 }
 </style>

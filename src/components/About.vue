@@ -6,16 +6,13 @@
       <div class="paragraph">
         <p>Meet Kylie!</p>
         <p1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-          deleniti, accusamus dicta vero, aperiam quasi sunt incidunt nostrum
-          error deserunt id quod rem quisquam natus voluptas possimus nesciunt
-          voluptatem aut. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Amet deleniti, accusamus dicta vero, aperiam quasi sunt incidunt
-          nostrum error deserunt id quod rem quisquam natus voluptas possimus
-          nesciunt voluptatem aut. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Amet deleniti, accusamus dicta vero, aperiam quasi
-          sunt incidunt nostrum error deserunt id quod rem quisquam natus
-          voluptas possimus nesciunt voluptatem aut.
+          Hello! I started my fitness journey back in November of 2020. I have
+          been intrigued by fitness and helping people feel better about
+          themselves ever since. I currently am working towards my NASM
+          certification in hopes to pursure my dream of helping others. I
+          created this site to be able to easily help people who want to start
+          their fitness journey. Stepping into the gym can be intimidating for
+          most, but I promise the outcome will all be worth it!
         </p1>
       </div>
     </div>
@@ -36,6 +33,7 @@ p {
   position: relative;
   width: 100%;
   top: 20px;
+  min-height: 80vh;
 }
 .image {
   position: absolute;
@@ -45,7 +43,7 @@ p {
 }
 .paragraph {
   position: absolute;
-  left: 43%;
+  left: 51%;
   border: 2px solid;
   background-color: white;
   padding: 18px;

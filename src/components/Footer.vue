@@ -22,5 +22,8 @@ footer {
   color: white;
   padding: 35px;
   text-align: right;
+  /* position: absolute;
+  bottom: 0; */
+  margin-top: 30px;
 }
 </style>
