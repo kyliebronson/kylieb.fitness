@@ -118,10 +118,11 @@ export default {
   }
   .mobile-menu {
     display: block !important;
-    background-color: grey;
+    background-color: #aa0e16;
   }
   .mobile-menu a {
     color: white;
+    font-weight: 600;
   }
   .mobile-menu li {
     padding: 8px;
