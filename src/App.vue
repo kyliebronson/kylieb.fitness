@@ -100,6 +100,9 @@ export default {
 .mobile-menu {
   display: none;
 }
+.imgfix {
+  padding-top: 10px !important;
+}
 @media (max-width: 900px) {
   .header li {
     display: none;

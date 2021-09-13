@@ -9,6 +9,13 @@
     </div>
     <div class="hero2">
       <h2>health and fitness coaching</h2>
+      <div>
+        <p>
+          Working with a trainer online provides flexibility in schedule and
+          location, while still giving you the expertise and accountability of a
+          trainer.
+        </p>
+      </div>
       <img src="../assets/homepageclients.png" alt="" />
     </div>
     <div class="socialmedia">
