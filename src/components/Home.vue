@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="hero">
-      <h2>Fitter, healthier, happier.</h2>
+      <h2>Fit, healthy, and happy.</h2>
       <img src="../assets/fitpic.jpeg" />
     </div>
     <div class="hero2-top">
@@ -9,11 +9,14 @@
     </div>
     <div class="hero2">
       <h2>health and fitness coaching</h2>
-      <div>
+      <div class="hero3">
         <p>
           Working with a trainer online provides flexibility in schedule and
           location, while still giving you the expertise and accountability of a
-          trainer.
+          trainer. It also integrates all things fitness into one place: your
+          workouts, running, biking and anything else you like to do to stay
+          active. Benefits of an online trainer include: accessibility, flexible
+          communication, progress tracking, planning, and accountability.
         </p>
       </div>
       <img src="../assets/homepageclients.png" alt="" />
@@ -54,7 +57,7 @@ export default {};
 .hero2 h2 {
   font-family: "Assistant";
   font-weight: 300;
-  font-size: 50px;
+  font-size: 54px;
   margin-bottom: 20px;
   line-height: 1.4;
 }
@@ -74,6 +77,10 @@ export default {};
 }
 .hero2 {
   padding-bottom: 100px;
+}
+.hero3 {
+  font-size: xx-large;
+  padding: 30px;
 }
 
 @media (max-width: 900px) {

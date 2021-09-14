@@ -7,13 +7,13 @@
         <div class="inner-paragraph">
           <p>Meet Kylie!</p>
           <p1>
-            Hello! I started my fitness journey back in November of 2020. I have
-            been intrigued by fitness and helping people feel better about
-            themselves ever since. I currently am working towards my NASM
+            When I started my fitness journey back in November I was instantly
+            intrigued by it. I currently am working towards my NASM
             certification in hopes to pursure my dream of helping others. I
-            created this site to be able to easily help people who want to start
-            their fitness journey. Stepping into the gym can be intimidating for
-            most, but I promise the outcome will all be worth it!
+            created this online fitness program in order to easily help people
+            who want to start their fitness journey. Stepping into the gym can
+            be intimidating for most, but I promise the outcome will all be
+            worth it!
           </p1>
         </div>
       </div>
