@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="hero">
-      <h2>Fit, healthy, and happy.</h2>
+      <h2><span>Fit</span> <span>Healthy</span> <span>Happy</span></h2>
       <img src="../assets/fitpic.jpeg" />
     </div>
     <div class="hero2-top">
@@ -22,7 +22,10 @@
       <img src="../assets/homepageclients.png" alt="" />
     </div>
     <div class="socialmedia">
-      <h2>Follow me on Instagram @kylieb.fit</h2>
+      <h2>
+        Follow me on Instagram
+        <a href="https://www.instagram.com/kylieb.fit/"> @kylieb.fit</a>
+      </h2>
     </div>
   </div>
 </template>
@@ -82,7 +85,10 @@ export default {};
   font-size: xx-large;
   padding: 30px;
 }
-
+.hero span {
+  padding: 20px;
+  letter-spacing: 10px;
+}
 @media (max-width: 900px) {
   .hero img {
     width: 100%;
@@ -94,6 +100,17 @@ export default {};
   }
   .hero h2 {
     width: auto;
+    top: 25%;
+  }
+  .hero span {
+    padding: 0;
+    letter-spacing: 10px;
+  }
+  .hero2 h2 {
+    font-size: 40px;
+  }
+  .hero3 {
+    font-size: 23px;
   }
 }
 </style>
