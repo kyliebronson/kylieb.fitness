@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="hero">
-      <h2><span>Fit</span> <span>Healthy</span> <span>Happy</span></h2>
+      <h2><span>Fitness</span> <span>Health</span> <span>Happiness</span></h2>
       <img src="../assets/fitpic.jpeg" />
     </div>
     <div class="hero2-top">
