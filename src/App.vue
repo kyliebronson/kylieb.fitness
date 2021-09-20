@@ -3,7 +3,7 @@
     <div>
       <ul class="header">
         <li class="imgfix">
-          <img src="./assets/redlogo.png" alt="" srcset="" />
+          <img src="./assets/fitlogo.jpg" alt="" srcset="" />
         </li>
         <li>
           <router-link to="/"> HOME </router-link>
@@ -102,6 +102,10 @@ export default {
 }
 .imgfix {
   padding-top: 10px !important;
+}
+.imgfix img {
+  height: 50px;
+  padding: 10px;
 }
 @media (max-width: 900px) {
   .header li {
